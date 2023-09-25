@@ -1,0 +1,10 @@
+/* DEBUG */
+
+.debug .row [class^="col"] {
+    border: 1px solid green;
+}
+
+.debug .page-hero [class^="col"] {
+    min-height: 200px;
+    min-width: 400px;
+}

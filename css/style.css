@@ -22,3 +22,8 @@
     min-height: 200px;
     background-color: rgb(7, 65, 255);
 }
+
+.debug .contact-me [class^="col"] {
+    min-height: 200px;
+    background-color: #bb10ff;
+}

@@ -13,7 +13,7 @@
     border: 3px solid black;
 }
 
-.debug .portfoglio [class^="col"] {
+.debug .portfolio [class^="col"] {
     min-height: 200px;
     background-color: rgb(255, 200, 21);
 }

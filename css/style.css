@@ -27,3 +27,8 @@
     min-height: 200px;
     background-color: #bb10ff;
 }
+
+.debug footer [class^="col"] {
+    min-height: 200px;
+    background-color: #08fff3;
+}

@@ -6,4 +6,14 @@
 
 .debug .page-hero [class^="col"] {
     min-height: 200px;
+    background-color: rgb(19, 223, 178);
+}
+
+.debug .container {
+    border: 3px solid black;
+}
+
+.debug .portfoglio [class^="col"] {
+    min-height: 200px;
+    background-color: rgb(255, 200, 21);
 }

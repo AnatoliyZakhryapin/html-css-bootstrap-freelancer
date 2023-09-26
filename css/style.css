@@ -1,3 +1,10 @@
+:root {
+    --dark-blue:#2C3E50;
+    --blue: #3A546D;
+    --light-green: #1ABC9C;
+}
+
+
 /* DEBUG */
 
 .debug .row [class^="col"] {

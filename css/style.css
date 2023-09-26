@@ -4,6 +4,17 @@
     --light-green: #1ABC9C;
 }
 
+.bg-dark-blue {
+    background-color: var(--dark-blue);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-light-green {
+    background-color: var(--light-green);
+}
 
 /* DEBUG */
 

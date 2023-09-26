@@ -16,6 +16,15 @@
     background-color: var(--light-green);
 }
 
+/* MAIN */
+
+/* page-hero */ 
+
+.page-hero-image {
+    width: 225px;
+}
+
+
 /* DEBUG */
 
 .debug .row [class^="col"] {

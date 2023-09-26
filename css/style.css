@@ -20,6 +20,24 @@
 
 /* page-hero */ 
 
+.section-subtitle::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 1px;
+    border: 2px solid;
+    border-radius: 999px;
+}
+
+.section-subtitle::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 1px;
+    border: 2px solid;
+    border-radius: 999px;
+}
+
 .page-hero-image {
     width: 225px;
 }

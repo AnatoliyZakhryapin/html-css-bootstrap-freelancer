@@ -45,7 +45,11 @@
 /* contact me */
 
 ::placeholder {
-    color: black";
+	color: #2c3e50;
+}
+
+.form-contact-me :is(input, textarea):focus {
+    outline: none;
 }
 
 /* FOOTER */

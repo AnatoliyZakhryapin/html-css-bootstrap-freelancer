@@ -16,6 +16,9 @@
     background-color: var(--light-green);
 }
 
+.text-light-green {
+    color: var(--light-green);
+}
 /* MAIN */
 
 /* page-hero */ 

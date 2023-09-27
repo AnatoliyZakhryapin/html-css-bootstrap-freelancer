@@ -171,12 +171,34 @@
         <!--End About-->
 
         <!--Start contact-me-->
-        <section class="container section-contact-me">
-            <div class="row justify-content-center">
-                <div class="col-auto">about-us</div>
+        <section class="section-contact-me text-black py-4">
+            <!--Title-->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-auto text-uppercase text-center">
+                        <div class="section-title mb-4">
+                            <h2 class="display-md-4 fw-md-semibold">Contact me</h2>
+                        </div>
+                        <div class="section-subtitle d-flex justify-content-center align-items-center gap-2 mb-4">
+                            <i class="fs-3 fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-9 col-md-8 col-lg-10"></div>
+
+            <!--Form-->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-9 col-md-8 col-lg-10">
+                        <form class="form-contact-me d-flex flex-column" action="">
+                            <input class="text-black border-0 border-bottom border-opacity-10 py-2" type="text" name="name" placeholder="Name">
+                            <input  class="border-0 border-bottom border-opacity-10 py-2" type="email" name="email" placeholder="Email Address">
+                            <input  class="border-0 border-bottom border-opacity-10 py-2" type="number name="number" placeholder="Phone Number">
+                            <textarea  class="border-0 border-bottom border-opacity-10 py-2" name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                            <input class="text-white align-self-start border-0 rounded mt-3 py-2 px-3 bg-light-green" type="submit" value="Send">
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
         <!--End contact-me-->

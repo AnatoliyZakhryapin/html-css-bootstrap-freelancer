@@ -19,20 +19,17 @@
 /* MAIN */
 
 /* page-hero */ 
-
-.section-subtitle::after {
-    content: "";
-    display: block;
-    width: 30%;
-    height: 1px;
-    border: 2px solid;
-    border-radius: 999px;
+.divider {
+    width: 40%;
+    margin: 0 auto;
 }
 
-.section-subtitle::before {
+.divider::after, 
+.divider::before {
     content: "";
     display: block;
-    width:  30%;
+    max-width: 150px;
+    flex-grow: 1;
     height: 1px;
     border: 2px solid;
     border-radius: 999px;

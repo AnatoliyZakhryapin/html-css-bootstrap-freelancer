@@ -44,6 +44,9 @@
 
 /* contact me */
 
+::placeholder {
+    color: black";
+}
 /* DEBUG */
 
 .debug .row [class^="col"] {

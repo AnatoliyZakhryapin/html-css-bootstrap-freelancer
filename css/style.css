@@ -47,6 +47,18 @@
 ::placeholder {
     color: black";
 }
+
+/* FOOTER */
+
+.footer-top .nav-item a {
+    width: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+}
+
 /* DEBUG */
 
 .debug .row [class^="col"] {
